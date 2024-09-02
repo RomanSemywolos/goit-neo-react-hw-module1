@@ -1,0 +1,61 @@
+.container {
+  max-width: 300px;
+  background-color: bisque;
+  border: 2px solid black;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.infoContainer {
+  margin: auto;
+  text-align: center;
+}
+
+.img {
+  background-color: grey;
+  width: 200px;
+  height: 200x;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.contacts {
+  font-size: 1rem;
+  color: #555;
+}
+
+.statsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Рівномірний розподіл простору між елементами */
+  align-items: center;           /* Центрує елементи по вертикалі (опційно) */
+  margin: 0;
+  padding: 0;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: solid black;
+  border-width: 2px 1px 1px 1px;
+  flex: 1;
+}
+
+.text {
+  font-size: 1.25rem;
+}
+
+.numbers {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
