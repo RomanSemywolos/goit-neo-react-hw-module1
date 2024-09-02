@@ -15,7 +15,9 @@ const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       />
+      <hr></hr>
       <FriendList friends={friends} />
+      <hr></hr>
       <TransactionHistory items={transactions} />
     </>
   );
